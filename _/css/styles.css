@@ -1,0 +1,55 @@
+main {
+    font-family: "Roboto";
+    padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.header {
+    background-color: rgb(31, 41, 55);
+    color: white;
+    width: 100%;
+    margin: 0;
+}
+
+.masthead {
+    flex: 1;
+    padding: 0.75rem;
+    height: 4rem;
+    width: 100%;
+}
+
+.navigation {
+    flex: 1;
+    gap: 2.5rem;
+    /* flex-grow: 0; */
+}
+
+.navigation img {
+    width: 40px;
+    height: 40px;
+}
+
+.nav-link {
+    margin: 2rem;
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+.links img {
+    height: 40px;
+    width: 40px;
+}
+
+body {
+    padding: 1.25rem;
+}
+
+footer {
+    padding: 1.25rem;
+}
